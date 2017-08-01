@@ -13,4 +13,10 @@ public class UserController {
 		return "this is a test";
 	}
 	
+	@RequestMapping("/page")
+	public String getPage(){
+		return "index";
+	}
+	
+	
 }
